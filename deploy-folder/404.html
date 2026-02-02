@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      // Redirect any 404 GitHub Pages route to root (React Router takes over)
+      sessionStorage.redirect = location.href;
+      window.location.href = "/";
+    </script>
+  </head>
+  <body></body>
+</html>
